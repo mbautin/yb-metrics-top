@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+python3 ${BASH_SOURCE%/*}/../src/yb_metrics_top.py "$@"
